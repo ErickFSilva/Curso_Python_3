@@ -2,8 +2,7 @@
 
 # Comentário em python
 
-
 # Imprime em tela
-print('Oi')
-print('Hello, world!')
-print('Outra coisa')
+print('Hello, word!')
+print('Opa, editei.')
+print('Atenção!!!')

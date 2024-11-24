@@ -21,25 +21,24 @@
 
 {
     "workbench.startupEditor": "none",
+    "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
     "files.autoGuessEncoding": true,
     "window.menuBarVisibility": "compact",
     "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
-        "javascript": "clear ; node",
-        "php": "clear ; php",
-        "python": "clear ; python -u",
-        "typescript": "clear ; ts-node",
-        "sass": "clear ; sass --style expanded",
-        "scss": "clear ; scss --style expanded",
-        "less": "clear ; cd $dir && lessc $fileName $fileNameWithoutExt.css"
+        "python": "cls ; python -u",
+        "javascript": "cls ; node"
     },
     "code-runner.ignoreSelection": true,
-    "code-runner.runInTerminal": true,
     "workbench.iconTheme": "material-icon-theme",
-    "python.defaultInterpreterPath": "python"
+    "python.defaultInterpreterPath": "python",
+    "editor.wordWrap": "on"
 }
 
 """
